@@ -14,10 +14,11 @@
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
   },
   "addons": [
-    "@asbeane/mlb-stats-api"
+    "@eeacms/volto-corsproxy"
   ],
   "dependencies": {
-    "@asbeane/mlb-stats-api": "asbeane/mlb-stats-api"
+    "@asbeane/mlb-stats-api": "asbeane/mlb-stats-api",
+    "@eeacms/volto-corsproxy": "^2.0.0"
   },
   "devDependencies": {
     "@plone/scripts": "*"
