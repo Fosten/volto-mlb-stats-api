@@ -1,5 +1,5 @@
 import '@plone/volto/config';
-import { PlayerCardView } from './components';
+import { PlayerCardView } from '@Fosten/volto-mlb-stats-api/components/';
 
 export default function applyConfig(config) {
 config.views = {

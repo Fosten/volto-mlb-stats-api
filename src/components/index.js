@@ -8,6 +8,6 @@
  *   Footer,
  * };
  */
-import PlayerCardView from './Views/PlayerCard';
+import PlayerCardView from '@Fosten/volto-happy-theme/components/Views/PlayerCard';
 
 export { PlayerCardView };
