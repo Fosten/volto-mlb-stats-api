@@ -1,5 +1,13 @@
-const applyConfig = (config) => {
-  return config;
-};
+import '@plone/volto/config';
+import { PlayerCardView } from '@Fosten/volto-mlb-stats-api/components/';
 
-export default applyConfig;
+export default function applyConfig(config) {
+config.views = {
+    ...config.views,
+    contentTypesViews: {
+      ...config.views.contentTypesViews,
+      playercard: PlayerCardView,
+    },
+  };
+  return config;
+}

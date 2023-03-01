@@ -8,6 +8,6 @@
  *   Footer,
  * };
  */
-import PlayerCardView from '@Fosten/volto-happy-theme/components/Views/PlayerCard';
+import PlayerCardView from '@Fosten/volto-mlb-stats-api/components/Views/PlayerCard';
 
 export { PlayerCardView };
